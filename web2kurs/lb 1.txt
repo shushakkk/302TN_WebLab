@@ -1,0 +1,180 @@
+№1 
+let a = 1;
+while (a <= 100) {
+    console.log(a)
+    a++
+
+};
+
+function qq () {
+    let a = 1;
+    while (a <=100) {
+        a++
+    } return a;
+}console.log(qq ());
+
+#2
+
+function qq(){
+    let a = 0;
+    
+    do {
+        if (a === 0) {
+            console.log(`${a} - це нуль `);
+        } else if (a % 2 === 0) {
+            console.log(`${a} - це парне число`);
+        } else {
+            console.log(`${a} - не парне число`);
+        }
+        a++;
+    } while (a <= 10);
+}
+qq();
+
+#3
+
+
+let ag = 10000;
+
+let co = 0;
+
+while (ag >= 50) {
+    ag /= 2;
+    co++;
+}
+
+let ec = ag;
+
+console.log("Результат ділення: " + ec);
+console.log("Кількість ітерацій: " + co);
+
+#4
+
+let al = prompt("Введіть число від 1 до 12:");
+
+let ab = parseInt(al);
+
+let se;
+switch (ab) {
+    case 12:
+    case 1:
+    case 2:
+        se = "зима";
+        break;
+    case 3:
+    case 4:
+    case 5:
+        se = "весна";
+        break;
+    case 6:
+    case 7:
+    case 8:
+        se = "літо";
+        break;
+    case 9:
+    case 10:
+    case 11:
+        se = "осінь";
+        break;
+    default:
+        se = "невірне значення";
+}
+
+
+let mon;
+switch (ab) {
+    case 1:
+        mon = "Січень";
+        break;
+    case 2:
+        mon = "Лютий";
+        break;
+    case 3:
+        mon = "Березень";
+        break;
+    case 4:
+        mon = "Квітень";
+        break;
+    case 5:
+        mon = "Травень";
+        break;
+    case 6:
+        mon = "Червень";
+        break;
+    case 7:
+        mon = "Липень";
+        break;
+    case 8:
+        mon = "Серпень";
+        break;
+    case 9:
+        mon = "Вересень";
+        break;
+    case 10:
+        mon = "Жовтень";
+        break;
+    case 11:
+        mon = "Листопад";
+        break;
+    case 12:
+        mon = "Грудень";
+        break;
+    default:
+        mon = "невірне значення";
+}
+
+alert("Місяць " + mon + " належить до пори року " + se + ".");
+
+
+#5
+
+let ef = prompt("Введіть температуру в градусах Цельсія:");
+
+let ab = parseFloat(ef);
+
+let dc = (9 / 5) * ab + 32;
+
+alert("Температура в градусах Фаренгейта: " + dc.toFixed(2));
+
+#6
+
+
+let ly = prompt("число від 1 до 7:");
+
+
+let ti = parseInt(ly);
+
+let fg;
+
+switch (ti) {
+    case 1:
+        fg = "Понеділок";
+        break;
+    case 2:
+        fg = "вівторок";
+        break;
+    case 3:
+        fg = "середа";
+        break;
+    case 4:
+        fg = "четвер";
+        break;
+    case 5:
+        fg = "п.ятниця";
+        break;
+    case 6:
+        fg = "субота";
+        break;
+    case 7:
+        fg = "неділя";
+        break;
+    default:
+        fg = "помилка";
+}
+
+alert("ваш день неділі: " + fg);
+
+
+
+
+
